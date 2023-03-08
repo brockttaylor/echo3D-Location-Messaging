@@ -103,7 +103,7 @@ public class ShareButtonHandler : MonoBehaviour
       Debug.Log(shareMessage);
       StartCoroutine(NativeShare(shareMessage));
       string url = "https://console.echoAR.xyz";
-      string key = "orange-lab-6750";
+      string key = "<API-KEY>";
       string data = "location";
       string value = shareMessage;
       StartCoroutine(UploadMetadata(url,key,data,value));
