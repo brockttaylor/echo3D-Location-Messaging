@@ -11,7 +11,7 @@ using System.Collections;
 
 public class Echo3DHologram : MonoBehaviour
 {
-    private string secKey = "<YOUR_SECURITY_KEY>";
+    private string secKey = "<YOUR SECURITY KEY>";
     // Your echo3D API key
     [Tooltip("Required - echo3D project API key. Exmaple: 'some-word-1234'")]
     public string apiKey = API_KEY_PLACEHOLDER;
